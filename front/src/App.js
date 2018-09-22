@@ -6,7 +6,6 @@ class App extends Component {
 
   constructor(props){
     super(props);
-    this.newFile = this.newFile.bind(this);
   }
 
   state = {
