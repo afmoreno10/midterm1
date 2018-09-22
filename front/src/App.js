@@ -6,6 +6,7 @@ class App extends Component {
 
   constructor(props){
     super(props);
+    this.newFile = this.newFile.bind(this);
   }
 
   state = {
@@ -15,13 +16,6 @@ class App extends Component {
       {"a": "D","b": 91}, {"a": "E","b": 81}, {"a": "F","b": 53},
       {"a": "G","b": 19}, {"a": "H","b": 87}, {"a": "I","b": 52}
     ]
-  }
-
-  // this.changeHandler = this.changeHandler.bind(this);
-
-
-  changeHandler(event){
-
   }
 
   createGraph(){

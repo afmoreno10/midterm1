@@ -2,8 +2,13 @@
 
 This is the project made to be used in the creation and development of the first mid-term exam of the course.
 
+## Author
+Andrés Felipe Moreno Marín
 
-## Intallation
+## Description
+The purpose of this exam is to create a minimalistic version of the Vega-Editor to visualize data.
+
+## Installation
 
 ### Running the back-end:
 The back-end of the project is supposed to be running at port 3001. It is already set up in the ./bin/www file.
@@ -18,8 +23,3 @@ The front-end is expected to be running at port 3000 as it is the default port u
 To start the front, go to ./front and execute the following command lines:
 `yarn install`
 `yarn start`
-
-### Preparing the data:
-
-`cd/data
-mongoimport -d <name of the database (you create this name)> -c <name of the collection (you create this name)> --jsonArray (--type csv) --file <name of the existing file to extract the data> --headerline`
